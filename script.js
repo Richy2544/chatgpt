@@ -1,7 +1,6 @@
-import * as THREE from './node_modules/three/build/three.module.js';
-import { OrbitControls } from './node_modules/three/examples/jsm/controls/OrbitControls.js';
-import { GLTFLoader } from './node_modules/three/examples/jsm/loaders/GLTFLoader.js';
-
+import * as THREE from './libs/three.module.js';
+import { OrbitControls } from './libs/OrbitControls.js';
+import { GLTFLoader } from './libs/GLTFLoader.js';
 
 // Debug: Messaggi iniziali
 console.log('Script avviato');
