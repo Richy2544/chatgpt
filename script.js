@@ -1,6 +1,9 @@
-import * as THREE from './libs/three.module.js';
-import { OrbitControls } from './libs/OrbitControls.js';
-import { GLTFLoader } from './libs/GLTFLoader.js';
+// Usa Three.js e i suoi moduli da CDN
+import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.min.js';
+import { OrbitControls } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/js/controls/OrbitControls.js';
+import { GLTFLoader } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/examples/js/loaders/GLTFLoader.js';
+
+// Il resto del codice JavaScript rimane invariato
 
 // Debug: Messaggi iniziali
 console.log('Script avviato');
